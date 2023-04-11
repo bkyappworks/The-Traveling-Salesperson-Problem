@@ -17,8 +17,7 @@ The data file that you will use is found on the course schedule and is named:
 http://www.andrew.cmu.edu/user/mm6/95-771/CrimeData/CrimeLatLonXY1990.csv. This file contains a
 list of crime records from 1990 in Pittsburgh. It contains three types of addresses. The first, which we will
 not use, is the street address of the crime. The second is the latitude and longitude of the crime (we will use
-these data only in Part 3 of this assignment. The third is the (X,Y) - coordinates of the crime. These (X, Y)
-- coordinates are from the State Plane Coordinate System. These data may be used to compute distances
+these data only in Part 3 of this assignment. The third is the (X,Y) - coordinates of the crime. These (X, Y) - coordinates are from the State Plane Coordinate System. These data may be used to compute distances
 between vertices in South Western PA using the Pythagorean theorem. In Part 1, we will be using the (X,
 Y) pairs to compute the distance between each crime. To convert from feet to miles, simply multiply the
 computed distances by 0.00018939.
